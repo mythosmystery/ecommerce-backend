@@ -9,8 +9,7 @@ router.get('/', async (req, res) => {
     include: [{ model: Category }, { model: Tag, through: ProductTag }]
   });
   res.status(200).json(products);
-  // find all products
-  // be sure to include its associated Category and Tag data
+
 });
 
 // get one product
@@ -23,8 +22,7 @@ router.get('/:id', async (req, res) => {
     return;
   }
   res.status(200).json(product);
-  // find a single product by its `id`
-  // be sure to include its associated Category and Tag data
+
 });
 
 // create new product
