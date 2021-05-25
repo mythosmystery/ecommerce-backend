@@ -49,7 +49,7 @@ router.put('/:id', async (req, res) => {
         id: req.params.id
       }
     });
-    category ? res.status(200).json(tag) : res.status(404).json({ message: "No category with this ID!" });
+    tag ? res.status(200).json(tag) : res.status(404).json({ message: "No tag with this ID!" });
   } catch (err) {
     console.log(err);
     res.status(400).json(err);
@@ -64,7 +64,7 @@ router.delete('/:id', async (req, res) => {
         id: req.params.id
       }
     });
-    category ? res.status(200).json(tag) : res.status(404).json({ message: "No category with this ID!" });
+    tag ? res.status(200).json(tag) : res.status(404).json({ message: "No tag with this ID!" });
   } catch (err) {
     console.log(err);
     res.status(400).json(err);
