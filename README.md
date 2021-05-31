@@ -17,9 +17,11 @@ An API for accessing a basic ecommerce app over the internet. It has GET, PUT, P
   
 ## Installation 
 Create a new *.env*  file containing  
-`DB_NAME=ecommerce_db`  
-`DB_USER={your_username}`  
-`DB_PW={your_password}`  
+```
+DB_NAME=ecommerce_db  
+DB_USER={your_username}  
+DB_PW={your_password}  
+```
 Start the MySQL server and run the *schema.sql* file to setup the database. Then run `npm i` to install Node packages. Run `npm run seed` to seed the database.
   
 ## Usage
