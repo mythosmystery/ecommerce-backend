@@ -36,6 +36,9 @@ If you would like to add to this project, you can [follow me on GitHub](https://
   
 ## Tests
 Just test all the routes
+
+## Video
+[Watch Now](https://www.youtube.com/watch?v=cvLMIBXqCOg)
   
 ## Questions:
 If you have any questions about this project, you can reach me [on GitHub](https://github.com/mythosmystery)
